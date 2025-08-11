@@ -1,1 +1,1 @@
-print("The Quick Brown \fJump Over The Fence")
+print("The Quick Brown \n\t\tJump Over The Fence")
