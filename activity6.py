@@ -10,7 +10,6 @@ print(" The product of ", n1, "and", n2, "is", c)
 print(" The quotient of ", n1, "and", n2, "is", d)
 print(n1, "exponent by ", n2, "is", n1**n2)
 print(" The remainder of ", n1, "and", n2, "is", n1 % n2)
-=======
 n1 = eval(input(" Enter the first number : "))
 n2 = eval(input(" Enter the second number: "))
 a = n1 + n2
@@ -25,5 +24,3 @@ print(n1, "exponent by ", n2, "is", n1**n2)
 print(" The remainder of ", n1, "and", n2, "is", n1 % n2)
 >>>>>>> ee10acb949fb3a87ba996fec152075361fc653a7
 print(" The floor division of ", n1, "and", n2, "is", n1//n2)
-
-#test
