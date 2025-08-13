@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 n1 = eval(input(" Enter the first number : "))
 n2 = eval(input(" Enter the second number: "))
 a = n1 + n2
