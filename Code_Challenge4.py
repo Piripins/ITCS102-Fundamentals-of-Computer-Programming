@@ -1,8 +1,8 @@
 print("Welcome to Manhwa Recommender")
 
-manhwa = input("What Genre do you prefer? (Action/Regressor/Supernatural) ")
+manhwa = input("What Genre do you prefer? (Action/Regressor/Supernatural) ").lower()
 
-length = input("How long do you want to read? (Short/Medium/Long) ")
+length = input("How long do you want to read? (Short/Medium/Long) ").lower()
 
 decade = input("What time of release would you like? (2000s/2010s) ")
 
