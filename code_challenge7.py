@@ -1,4 +1,4 @@
-print("Welcome the Code Challenge 7: Project Liftoff")
+print("Welcome to the Code Challenge 7: Project Liftoff")
 
 confirmation = input("Would like to start Project Liftoff (Yes/No) ")
 
