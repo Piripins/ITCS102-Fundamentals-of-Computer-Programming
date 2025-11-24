@@ -18,7 +18,8 @@ while True:
     print('D - Delete Student Record')
     print('E - Edit Student Record')
     print('F - Export Student Record')
-    print('G - Exit Program')
+    print('G - Import Student Record')
+    print('X - Exit Program')
 
     choice = input("Choose the option you would like to do--> ").lower()
 
@@ -115,8 +116,18 @@ while True:
             json.dump(student_record, new_file, indent=4)
             print("RECORD HAS BEEN EXPORTED")
         continue 
-    
+
     elif choice == 'g':
+        os.system('cls')
+        print("IMPORTING STUDENT RECORD")
+        with open('Record_of_student.json', 'r') as new_file:
+            imported_student = json.load(new_file)
+
+        student_record = imported_student
+        print("RECORD HAS BEEN IMPORTED")
+        continue 
+    
+    elif choice == 'x':
         print("You've Exited The Program")
         break
     
