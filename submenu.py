@@ -553,7 +553,7 @@ Good Luck On Your Coding Journey!!''')
 
         if option == '1':
             print('\nCreate Your Own Print Statement: ')
-            print("Enter yourcode. Press Enter on an empty new line to run your code: ")
+            print("Enter your code. Press Enter on an empty new line to run your code: ")
 
             lines = []
             while True:
@@ -569,7 +569,7 @@ Good Luck On Your Coding Journey!!''')
 
         elif option == '2':
             print('\nCreate Your Own Varaibles Statement: ')
-            print("Enter yourcode. Press Enter on an empty new line to run your code: ")
+            print("Enter your code. Press Enter on an empty new line to run your code: ")
 
             lines = []
             while True:
@@ -585,7 +585,7 @@ Good Luck On Your Coding Journey!!''')
 
         elif option == '3':
             print('\nCreate Your Own Operators Statement: ')
-            print("Enter yourcode. Press Enter on an empty new line to run your code: ")
+            print("Enter your code. Press Enter on an empty new line to run your code: ")
 
             lines = []
             while True:
@@ -601,7 +601,7 @@ Good Luck On Your Coding Journey!!''')
 
         elif option == '4':
             print('\nCreate Your Own Conditional Statement: ')
-            print("Enter yourcode. Press Enter on an empty new line to run your code: ")
+            print("Enter your code. Press Enter on an empty new line to run your code: ")
 
             lines = []
             while True:
@@ -617,7 +617,7 @@ Good Luck On Your Coding Journey!!''')
 
         elif option == '5':
             print('\nreate Your Own Loops: ')
-            print("Enter yourcode. Press Enter on an empty new line to run your code: ")
+            print("Enter your code. Press Enter on an empty new line to run your code: ")
 
             lines = []
             while True:
@@ -633,7 +633,7 @@ Good Luck On Your Coding Journey!!''')
 
         elif option == '6':
             print('\nCreate Your Own Lists: ')
-            print("Enter yourcode. Press Enter on an empty new line to run your code: ")
+            print("Enter your code. Press Enter on an empty new line to run your code: ")
 
             lines = []
             while True:
@@ -649,7 +649,7 @@ Good Luck On Your Coding Journey!!''')
 
         elif option == '7':
             print('\nCreate Your Own Functions: ')
-            print("Enter yourcode. Press Enter on an empty new line to run your code: ")
+            print("Enter your code. Press Enter on an empty new line to run your code: ")
 
             lines = []
             while True:
@@ -671,3 +671,4 @@ Good Luck On Your Coding Journey!!''')
             print('Invalid Input Please Try Again')
         
         print('\n======================================') 
+
