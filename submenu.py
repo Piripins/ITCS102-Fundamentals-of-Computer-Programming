@@ -552,44 +552,114 @@ Good Luck On Your Coding Journey!!''')
         option = input('\nEnter The Option You Want To Proceed With--> ')  
 
         if option == '1':
-            printing = input('\nCreate Your Own Print Statement: ')
-            exec(printing)
+            print('\nCreate Your Own Print Statement: ')
+            print("Enter yourcode. Press Enter on an empty new line to run your code: ")
+
+            lines = []
+            while True:
+                line = input()
+                if line.strip() == "":
+                    break
+                lines.append(line)
+
+            user_input = "\n".join(lines)
+            exec(user_input) 
             time.sleep(1)
             continue
 
         elif option == '2':
-            variables = input('\nCreate Your Own Varaibles Statement: ')
-            exec(variables)
+            print('\nCreate Your Own Varaibles Statement: ')
+            print("Enter yourcode. Press Enter on an empty new line to run your code: ")
+
+            lines = []
+            while True:
+                line = input()
+                if line.strip() == "":
+                    break
+                lines.append(line)
+
+            user_input = "\n".join(lines)
+            exec(user_input) 
             time.sleep(1)
             continue      
 
         elif option == '3':
-            operators = input('\nCreate Your Own Operators Statement: ')
-            exec(operators)
+            print('\nCreate Your Own Operators Statement: ')
+            print("Enter yourcode. Press Enter on an empty new line to run your code: ")
+
+            lines = []
+            while True:
+                line = input()
+                if line.strip() == "":
+                    break
+                lines.append(line)
+
+            user_input = "\n".join(lines)
+            exec(user_input) 
             time.sleep(1)
             continue
 
         elif option == '4':
-            condtional_statements = input('\nCreate Your Own Conditional Statement: ')
-            exec(condtional_statements)
+            print('\nCreate Your Own Conditional Statement: ')
+            print("Enter yourcode. Press Enter on an empty new line to run your code: ")
+
+            lines = []
+            while True:
+                line = input()
+                if line.strip() == "":
+                    break
+                lines.append(line)
+
+            user_input = "\n".join(lines)
+            exec(user_input) 
             time.sleep(1)
             continue
 
         elif option == '5':
-            loops = input('\nreate Your Own Loops: ')
-            exec(loops)
+            print('\nreate Your Own Loops: ')
+            print("Enter yourcode. Press Enter on an empty new line to run your code: ")
+
+            lines = []
+            while True:
+                line = input()
+                if line.strip() == "":
+                    break
+                lines.append(line)
+
+            user_input = "\n".join(lines)
+            exec(user_input) 
             time.sleep(1)
             continue
 
         elif option == '6':
-            listing = input('\nCreate Your Own Lists: ')
-            exec(listing)
+            print('\nCreate Your Own Lists: ')
+            print("Enter yourcode. Press Enter on an empty new line to run your code: ")
+
+            lines = []
+            while True:
+                line = input()
+                if line.strip() == "":
+                    break
+                lines.append(line)
+
+            user_input = "\n".join(lines)
+            exec(user_input) 
             time.sleep(1)
             continue
 
         elif option == '7':
-            functions = input('\nCreate Your Own Functions: ')
-            exec(functions)
+            print('\nCreate Your Own Functions: ')
+            print("Enter yourcode. Press Enter on an empty new line to run your code: ")
+
+            lines = []
+            while True:
+                line = input()
+                if line.strip() == "":
+                    break
+                lines.append(line)
+
+            user_input = "\n".join(lines)
+            exec(user_input) 
             time.sleep(1)
             continue
 
